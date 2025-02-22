@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #7bdef0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        h1 {
+            color: #dbe117;
+        }
+        p {
+            color: #333;
+        }
+        .balloons {
+            margin-top: 30px;
+        }
+        .balloon {
+            width: 100px;
+            height: 150px;
+            background-color: #ff6f61;
+            border-radius: 50%;
+            display: inline-block;
+            position: relative;
+            margin: 20px;
+            animation: float 5s ease-in-out infinite;
+        }
+        .balloon::after {
+            content: '';
+            width: 2px;
+            height: 50px;
+            background-color: #ff6f61;
+            position: absolute;
+            bottom: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .balloon::before {
+            content: attr(data-text);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday!</h1>
+        <p>TANDA A LANG NA KUNG NAAY KUHAON SA IMOA NAA IHATAG NA MAS MAAYO AYAW LANG PADALA SA PROBLEMA COUNTINUO LANG SA LIFE</p>
+        <div class="balloons">
+            <div class="balloon" style="background-color: #18e02f;" data-text="from matt"></div>
+            <div class="balloon" style="background-color: #2109bb;" data-text="from jomar"></div>
+            <div class="balloon" style="background-color: #c70eb1;" data-text="from clark"></div>
+        </div>
+        <div class="container">
+            <h1 class="title">Happy Birthday!</h1>
+            <p class="message">Dear JOSE,</p>
+            <p class="message">MUSTA JOSE,KUNG ASA MAN KA RON UNTA PERMI NIMO NI MAALALA KAY BISKAN KAMATAYON KO GE PILIT NAKO HIMO NI PARA SA IMO UNTA HAPPY KA SA IMONG LIFE MAO LANG TO  </p>
+            <p class="message">GIKAN SA BEST PROGRAMER IN THE WORLD,</p>
+            <p class="message">JOMAR</p>
+        </div>
+        <div class="container">
+            <h1 class="title">Happy Birthday!</h1>
+            <p class="message">Dear JOSE,</p>
+            <p class="message">Happy birthday unta Dili naka mag binuNg</p>
+            <p class="message">your bestfriend,</p>
+            <p class="message">MATT</p>
+        </div>
+        <div class="container">
+            <h1 class="title">Happy Birthday!</h1>
+            <p class="message">Dear JOSE,</p>
+            <p class="message">Happy Happy birthday Jose, Grabe mao diay very hilom ka today Kay birthday diay nimo ha, sorry if Wala ko/me gift sa imoha Kay late naka nag ingon, You know Jose I'll be honest with you, pet peeve Tika tong first week sa school Kay lihokan kaayo imohang kamot rag di ka puyo, and ana pako di nako eh close Kay samok, but I was wrong, nag close man hinuon ta Bai, I'm really thankful kaayo ko sa inyoha duwa ni matt, kamo akoang source of joy sa room Biskan bully mo😒. Pero Bai akoang ma ingon lang unta ma crush back naka Bai para sa kasiyahan mo HAHAHAHAHAHAHAH padayun Ang pagiging hot Jose, happy birthday!</p>
+            <p class="message">FROM BAYARAN ,</p>
+            <p class="message">CLARK</p>
+        </div>
+
+    
+    
+    <video controls autoplay loop src="jose birthday.mp4" withd="400" ></video>
+    <p>soory diay wala ko kabutang picture ni  blessy diri kay basi ma ignan ta stalker so ari na lang akong ibutang</p>
+    <video controls autoplay loop src="Maroon 5 - Memories (Lyrics).mp4" witdh="400" ></video>
+
+</body>
+</html>
